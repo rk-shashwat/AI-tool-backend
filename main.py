@@ -9,7 +9,7 @@ app = FastAPI()
 # CORS must be added immediately after creating the app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5500"],   # or ["*"] while developing
+    allow_origins=["https://ai-quiz-generator-1fi9.onrender.com"],   # or ["*"] while developing
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
